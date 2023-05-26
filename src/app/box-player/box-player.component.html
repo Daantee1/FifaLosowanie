@@ -1,0 +1,38 @@
+<div>
+
+<div class="box-player">
+<span><h2 class="add-player-title">Dodaj gracza </h2> </span>
+  <input class="name-player" type="text" [(ngModel)]="newPlayerInput">
+ <button class="btn-add-player btn btn-primary"  (click)="addPlayer()"  [disabled]="maxPlayerAlert">Dodaj</button> 
+ 
+  <div>
+  <p *ngIf="maxPlayerAlert" class="maxPlayerAlert">Maksymalna liczba graczy biorąca udział w losowaniu to 6 osób</p>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<div class="separator">
+
+</div>
+<div><H3 class="add-player player-list-name">Lista graczy:</H3>
+</div>
+<div >
+  <ul class="flex-ul">
+    <li class="player-list-li" *ngFor="let player of playerList ">
+      {{player}}
+      <button class=" btn-remove-player btn btn-primary" (click)="removePlayer(player)">Usuń</button>
+    </li>
+  </ul>
+  </div>
+  <div>
+
+
+     <button type="button" class="btn btn-success next"   routerLink='ban-pick' > Dalej</button>
+     
+
+     
+</div>
+
+</div>

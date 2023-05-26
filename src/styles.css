@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+head
+{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+:root{
+  --purple: #0E1E5B;
+  --dark: rgb(30, 28, 28);
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: var(--purple);
+  background: linear-gradient(45deg, var(--dark), var(--purple) );
+  overflow: hidden;
+}
+

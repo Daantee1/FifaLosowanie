@@ -1,0 +1,131 @@
+:root{
+  --purple:#0E1E5B;
+  --dark: rgb(30, 28, 28);
+  --blue: #3562A6;
+  --tile_blue: #6594C0;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 18vh;
+  background: rgba(211, 209, 209, 0.75);
+  color: var(--blue);
+  background: linear-gradient(to right top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+  border-radius: 30px;
+
+}
+
+h1{
+  padding-top: 20px;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.title{
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #048e0b;
+
+}
+
+.bg_img{
+  position: relative;
+  display: flex;
+  left: -650px;
+  opacity: 0.2;
+  transform: translate(-15%);
+  transform: rotate(-15deg);
+  overflow:hidden;
+}
+
+.container{
+  display: flex;
+  position: absolute;
+  margin-top: 2rem;
+  top: 12rem;
+  width: 66%;
+  height: 66%;
+  background: #6594C0;
+  background: linear-gradient(to right top, rgba(167, 164, 164, 0.3), rgba(232, 224, 224, 0.1));
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  background: #6594C0;
+  width: 33%;
+  height: 33%;
+}
+
+
+
+
+.bg_ball{
+
+  padding-top: 34.4%;
+  animation:  1s ball-jump infinite;
+  animation-direction: alternate-reverse;
+
+}
+
+.sound{
+  transform: scale(4);
+  padding-top: 3rem;
+  margin-left: 8rem;
+  
+}
+
+
+
+@keyframes ball-jump {
+  from {
+    padding-top: 34.5%;
+  }
+  to {
+    padding-top: 20%;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    height: 80%;
+  }
+
+  .box {
+    width: 50%;
+    height: 50%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    height: 25vh;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    width: 90%;
+    height: 90%;
+  }
+
+  .box {
+    width: 70%;
+    height: 70%;
+  }
+}

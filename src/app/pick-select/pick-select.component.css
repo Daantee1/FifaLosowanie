@@ -1,0 +1,75 @@
+.btn-primary{
+    font: normal bold 26px/1 "Montserrat", sans-serif;
+    margin-left: 20px;
+    margin-top: -7px;
+    height: 2%;
+}
+h1{
+    font-weight:bolder;
+    padding-top: 6px;
+    margin-left: 8px;
+    font-size: 35px;
+}
+
+h2{
+    font-weight:bolder;
+}
+
+.separator {
+  display: block;
+  position: relative;
+  border-top: 2px solid black;
+  top: -50px;
+  margin: 10px;
+  width: 59rem;
+  }
+
+.inputban{
+    margin: 1rem;
+    padding: 6px;
+}
+
+.bans{
+    display: inline-block;
+    padding: 1rem;
+    align-items: center;
+    margin-left: 16rem;
+    
+}
+
+.list-ban{
+    margin-left: 1rem;
+    display: block;
+}
+
+.picks{
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+strong{
+    font-weight:bolder;
+    font-size: 35px;
+
+    color:  #6594C0;
+}
+
+.endList{
+    font-weight:bolder;
+    font-size: 25px;
+    margin-left: 1rem;
+}
+
+.btn-success{
+    position: fixed;
+    height: 40vh;
+    left: 1250px;
+    bottom: 100px;
+
+}
+
+.next{
+    position: fixed;
+    left: 62rem;
+  }
+  

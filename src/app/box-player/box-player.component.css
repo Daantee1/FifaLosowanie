@@ -1,0 +1,141 @@
+.box-player
+
+
+:root{
+  --purple:#0E1E5B;
+  --dark: rgb(30, 28, 28);
+  --blue: #3562A6;
+  --tile_blue: #6594C0;
+}
+
+
+.box-player{
+  display: block;
+  justify-content: space-between;
+}
+
+.add-player-title{
+  font-weight:bolder;
+  padding-top: 6px;
+  margin-left: 8px;
+}
+
+.name-player{
+  position: absolute;
+  padding: 20px;
+  top: 5px;
+  left: 220px;
+  width: 30%;
+  height: 40px;
+  font-size: 19px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+  text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
+
+.add-player{
+  padding: 10px;
+  font-size: 30px;
+  font-weight:bolder;
+}
+
+.btn-add-player{
+  text-align: center;
+  border: none;
+  position: fixed;
+  font: normal bold 26px/1 "Montserrat", sans-serif;
+  padding: 10px;
+  left: 35rem;
+  bottom: 26.5rem;
+  width: 9.8%;
+  height: 9%;
+
+}
+
+.btn-add-player:hover{
+  background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+
+.separator {
+  display: block;
+  position: relative;
+  border-top: 2px solid black;
+  top: -50px;
+  margin: 10px;
+  width: 59rem;
+}
+
+.player-list-name{
+  position: absolute;
+  top: 90px
+
+}
+.player-list-li{
+  position: relative;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  left: 53px;
+  list-style-type: "\26BD";
+}
+
+.btn-remove-player{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  left: 50px;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 7px;
+  border: none;
+  margin: 10px;
+  font: normal bold 26px/1 "Montserrat", sans-serif;
+}
+.btn-remove-player:hover{
+  background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+
+.flex-ul{
+  -webkit-columns: 3; 
+  -moz-columns: 3;
+  columns: 3;
+
+  display: block;
+  justify-content: space-between;
+}
+
+.maxPlayerAlert{
+  position: relative;
+  font-size: 20px;
+  color: #ff0000;
+  padding-left: 11px;
+}
+
+.btn-success{
+    position: fixed;
+    height: 40vh;
+    left: 1250px;
+    bottom: 100px;
+
+}
+.next{
+  position: fixed;
+  left: 62rem;
+}
+
+
+
+
+
+
+
+
+
+

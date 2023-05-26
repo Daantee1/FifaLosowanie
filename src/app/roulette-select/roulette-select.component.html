@@ -1,0 +1,17 @@
+<div>
+    <h1><span>Losowanie drużyny dla gracza <strong>{{currentDisplayedPlayer}}</strong></span><button class="btn btn-primary"
+          (click)="showNextPlayer()" [disabled]="isShowNextPlayerButtonDisabled" >Kolejny gracz</button></h1>
+          <p class="endList" *ngIf="showPlayerListEndMessage" >Koniec listy graczy</p>
+    <br>
+ 
+    <br>
+    <br>
+    <div class="separator">
+       <br>
+       <button class="btn btn-danger" (click)="pickRandomClub()" [disabled]="isClickClubDisabled || isShowSelectClubButtonDisabled">Wylosuj swój klub!</button>
+       <div class="lds-ripple" id="loading-spinner" #spinner>
+            
+    <div *ngIf="pickedClub" class="picked-club">{{pickedClub}}</div>
+    </div>
+
+       

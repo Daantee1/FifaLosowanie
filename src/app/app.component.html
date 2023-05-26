@@ -1,0 +1,51 @@
+
+<body>
+
+
+<div class="heading">
+<ng-container>
+
+<h1>Losowanie Turnieju <span class="title">CYBUCHA</span></h1>
+
+
+<div class ="sound">
+<img (click)="playSound()" src="./assets/images/play.svg" alt="">
+</div>
+</ng-container>
+
+</div>
+<div class="bg_img">
+<img src="./assets/images/bg_img.png" alt="" >
+</div>
+
+<div class="container">
+
+  
+  
+  <app-box-player *ngIf="showComponent"></app-box-player>
+
+  <app-ban-pick *ngIf="showBanPick && !showBoxPlayer" ></app-ban-pick>
+  <app-pick-select *ngIf="showPickSelect && !showBoxPlayer && !showBanPick"></app-pick-select> 
+  <app-roulette-select *ngIf="showRouletteSelect && !showPickSelect && !showBoxPlayer && !showBanPick"></app-roulette-select>
+
+  </div>
+
+    
+  
+    
+
+
+    
+
+
+
+<div class="bg_ball">
+  <img src="./assets/images/bg_ball.png" width="200" height="200" alt="" >
+  </div>
+
+  <div>
+
+  </div>
+
+
+</body>

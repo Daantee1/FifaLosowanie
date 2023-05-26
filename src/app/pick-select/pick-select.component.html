@@ -1,0 +1,39 @@
+<div>
+    <h1><span>Gracz <strong>{{currentDisplayedPlayer}}</strong> dokonuje wyborów!</span><button class="btn btn-primary"
+          (click)="showNextPlayer()"  (click)="resetBtn()" [disabled]="isShowNextPlayerButtonDisabled">Kolejny gracz</button></h1>
+          <p class="endList" *ngIf="showPlayerListEndMessage" >Koniec listy graczy</p>
+    <br>
+ 
+    <br>
+    <br>
+    <div class="separator">
+       <br>
+       <div class="bans">
+          <h2><span>Wybierz 2 picki na drużyny:</span></h2>
+          
+         
+          <div class="list-ban">
+             <select class="inputban" [(ngModel)]="firstPickClub">
+                <option value="">Wybierz drużynę</option>
+                <option *ngFor="let club of clubsData" [value]="club.name">{{ club.name }}</option>
+             </select>
+             <button class="btn btn-primary"  (click)="pickClub(firstPickClub)" [disabled]="hideBtn || showPlayerListEndMessage" (click)="btnChange1()">Ok</button>
+          </div>
+ 
+          <div class="list-ban" >
+             <select class="inputban" [(ngModel)]="secondPickClub">
+                <option value="">Wybierz drużynę</option>
+                <option *ngFor="let club of clubsData" [value]="club.name">{{ club.name }}</option>
+             </select>
+             <button class="btn btn-primary"  (click)="pickClub(secondPickClub)" [disabled]="hideBtn2 || showPlayerListEndMessage" (click)="btnChange2()">Ok</button>
+          </div>
+         
+       </div>
+       <button type="button" class="btn btn-success next" routerLink='roulette-select' [disabled]="hideBtnNext"> Dalej</button>
+       
+       
+ 
+ 
+ 
+ 
+    </div>

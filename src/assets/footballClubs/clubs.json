@@ -1,0 +1,727 @@
+
+  
+    [
+      {
+        "key": "austria",
+        "name": "FK Austria Wien",
+        "code": "AUS",
+        "isBanned": false
+      },
+      {
+        "key": "rapid",
+        "name": "SK Rapid Wien",
+        "code": "RAP",
+        "isBanned": false
+      },
+      {
+        "key": "admira",
+        "name": "FC Admira Wacker",
+        "code": "ADM",
+        "isBanned": false
+      },
+      {
+        "key": "mattersburg",
+        "name": "SV Mattersburg",
+        "code": "MAT",
+        "isBanned": false
+      },
+      {
+        "key": "salzburg",
+        "name": "FC RB Salzburg",
+        "code": "RBS",
+        "isBanned": false
+      },
+      {
+        "key": "groedig",
+        "name": "SV Grödig",
+        "code": "SVG",
+        "isBanned": false
+      },
+      {
+        "key": "sturm",
+        "name": "SK Sturm Graz",
+        "code": "STU",
+        "isBanned": false
+      },
+      {
+        "key": "wac",
+        "name": "Wolfsberger AC",
+        "code": "WAC",
+        "isBanned": false
+      },
+      {
+        "key": "ried",
+        "name": "SV Ried",
+        "code": "RIE",
+        "isBanned": false
+      },
+      {
+        "key": "altach",
+        "name": "SCR Altach",
+        "code": "ALT",
+        "isBanned": false
+      },
+      {
+        "key": "wrneustadt",
+        "name": "SC Wiener Neustadt",
+        "code": "WRN",
+        "isBanned": false
+      },
+      {
+        "key": "innsbruck",
+        "name": "FC Wacker Innsbruck",
+        "code": "FCW",
+        "isBanned": false
+      },
+      {
+        "key": "alustenau",
+        "name": "SC Austria Lustenau",
+        "code": "ALU",
+        "isBanned": false
+      },
+      {
+        "key": "stpoelten",
+        "name": "SKN St. Pölten",
+        "code": "SKN",
+        "isBanned": false
+      },
+      {
+        "key": "ksv",
+        "name": "Kapfenberger SV",
+        "code": "KSV",
+        "isBanned": false
+      },
+      {
+        "key": "aklagenfurt",
+        "name": "SK Austria Klagenfurt",
+        "code": "KLA",
+        "isBanned": false
+      },
+      {
+        "key": "asalzburg",
+        "name": "SV Austria Salzburg",
+        "code": "AUS",
+        "isBanned": false
+      },
+      {
+        "key": "liefering",
+        "name": "FC Liefering",
+        "code": "FCL",
+        "isBanned": false
+      },
+      {
+        "key": "fac",
+        "name": "Floridsdorfer AC",
+        "code": "FAC",
+        "isBanned": false
+      },
+      {
+        "key": "lask",
+        "name": "LASK Linz",
+        "code": "ASK",
+        "isBanned": false
+      },
+      {
+        "key": "bayern",
+        "name": "FC Bayern München",
+        "code": "FCB",
+        "isBanned": false
+      },
+      {
+        "key": "dortmund",
+        "name": "Borussia Dortmund",
+        "code": "BVB",
+        "isBanned": false
+      },
+      {
+        "key": "leverkusen",
+        "name": "Bayer 04 Leverkusen",
+        "code": "B04",
+        "isBanned": false
+      },
+      {
+        "key": "schalke",
+        "name": "Schalke 04",
+        "code": "S04",
+        "isBanned": false
+      },
+      {
+        "key": "frankfurt",
+        "name": "Eintracht Frankfurt",
+        "code": "FFM",
+        "isBanned": false
+      },
+      {
+        "key": "hsv",
+        "name": "Hamburger SV",
+        "code": "HSV",
+        "isBanned": false
+      },
+      {
+        "key": "mgladbach",
+        "name": "Borussia M'gladbach",
+        "code": "BMG",
+        "isBanned": false
+      },
+      {
+        "key": "hannover",
+        "name": "Hannover 96",
+        "code": "H96",
+        "isBanned": false
+      },
+      {
+        "key": "wolfsburg",
+        "name": "VfL Wolfsburg",
+        "code": "WOB",
+        "isBanned": false
+      },
+      {
+        "key": "mainz",
+        "name": "1. FSV Mainz 05",
+        "code": "M05",
+        "isBanned": false
+      },
+      {
+        "key": "bremen",
+        "name": "Werder Bremen",
+        "code": "BRE",
+        "isBanned": false
+      },
+      {
+        "key": "hoffenheim",
+        "name": "1899 Hoffenheim",
+        "code": "HOF",
+        "isBanned": false
+      },
+      {
+        "key": "stuttgart",
+        "name": "Stuttgart",
+        "code": "VFB",
+        "isBanned": false
+      },
+      {
+        "key": "augsburg",
+        "name": "FC Augsburg",
+        "code": "FCA",
+        "isBanned": false
+      },
+      {
+        "key": "herthabsc",
+        "name": "Hertha BSC",
+        "code": "BSC",
+        "isBanned": false
+      },
+      {
+        "key": "koeln",
+        "name": "1. FC Köln",
+        "code": "KOE",
+        "isBanned": false
+      },
+      {
+        "key": "ingolstadt",
+        "name": "FC Ingolstadt 04",
+        "code": "FCI",
+        "isBanned": false
+      },
+      {
+        "key": "darmstadt",
+        "name": "Darmstadt",
+        "code": "D98",
+        "isBanned": false
+      },
+      {
+        "key": "paderborn",
+        "name": "SC Paderborn 07",
+        "code": "SCP",
+        "isBanned": false
+      },
+      {
+        "key": "freiburg",
+        "name": "SC Freiburg",
+        "code": "SCF",
+        "isBanned": false
+      },
+      {
+        "key": "braunschweig",
+        "name": "Eintr. Braunschweig",
+        "code": "EBS",
+        "isBanned": false
+      },
+      {
+        "key": "nuernberg",
+        "name": "1. FC Nürnberg",
+        "code": "FCN",
+        "isBanned": false
+      },
+      {
+        "key": "duesseldorf",
+        "name": "Fortuna Düsseldorf",
+        "code": "F95",
+        "isBanned": false
+      },
+      {
+        "key": "fuerth",
+        "name": "Greuther Fürth",
+        "code": "SGF",
+        "isBanned": false
+      },
+      {
+        "key": "klautern",
+        "name": "1. FC Kaiserslautern",
+        "code": "FCK",
+        "isBanned": false
+      },
+      {
+        "key": "fsvfrankfurt",
+        "name": "FSV Frankfurt",
+        "code": "FSV",
+        "isBanned": false
+      },
+      {
+        "key": "tsvmuenchen",
+        "name": "1860 München",
+        "code": "M60",
+        "isBanned": false
+      },
+      {
+        "key": "unionberlin",
+        "name": "Union Berlin",
+        "code": "FCU",
+        "isBanned": false
+      },
+      {
+        "key": "bochum",
+        "name": "VfL Bochum",
+        "code": "BOC",
+        "isBanned": false
+      },
+      {
+        "key": "stpauli",
+        "name": "FC St. Pauli",
+        "code": "STP",
+        "isBanned": false
+      },
+      {
+        "key": "sandhausen",
+        "name": "SV Sandhausen",
+        "code": "SAN",
+        "isBanned": false
+      },
+      {
+        "key": "karlsruhe",
+        "name": "Karlsruhe",
+        "code": "KSC",
+        "isBanned": false
+      },
+      {
+        "key": "heidenheim",
+        "name": "Heidenheim",
+        "code": "HDH",
+        "isBanned": false
+      },
+      {
+        "key": "leipzig",
+        "name": "RB Leipzig",
+        "code": "RBL",
+        "isBanned": false
+      },
+      {
+        "key": "duisburg",
+        "name": "MSV Duisburg",
+        "code": "MSV",
+        "isBanned": false
+      },
+      {
+        "key": "bielefeld",
+        "name": "Bielefeld",
+        "code": "DSC",
+        "isBanned": false
+      },
+      {
+        "key": "chelsea",
+        "name": "Chelsea",
+        "code": "CHE",
+        "isBanned": false
+      },
+      {
+        "key": "arsenal",
+        "name": "Arsenal",
+        "code": "ARS",
+        "isBanned": false
+      },
+      {
+        "key": "tottenham",
+        "name": "Tottenham Hotspur",
+        "code": "TOT",
+        "isBanned": false
+      },
+      {
+        "key": "westham",
+        "name": "West Ham United",
+        "code": "WHU",
+        "isBanned": false
+      },
+      {
+        "key": "crystalpalace",
+        "name": "Crystal Palace",
+        "code": "CRY",
+        "isBanned": false
+      },
+      {
+        "key": "manutd",
+        "name": "Manchester United",
+        "code": "MUN",
+        "isBanned": false
+      },
+      {
+        "key": "mancity",
+        "name": "Manchester City",
+        "code": "MCI",
+        "isBanned": false
+      },
+      {
+        "key": "everton",
+        "name": "Everton",
+        "code": "EVE",
+        "isBanned": false
+      },
+      {
+        "key": "liverpool",
+        "name": "Liverpool",
+        "code": "LIV",
+        "isBanned": false
+      },
+      {
+        "key": "westbrom",
+        "name": "West Bromwich Albion",
+        "code": "WBA",
+        "isBanned": false
+      },
+      {
+        "key": "newcastle",
+        "name": "Newcastle United",
+        "code": "NEW",
+        "isBanned": false
+      },
+      {
+        "key": "stoke",
+        "name": "Stoke City",
+        "code": "STK",
+        "isBanned": false
+      },
+      {
+        "key": "sunderland",
+        "name": "Sunderland",
+        "code": "SUN",
+        "isBanned": false
+      },
+      {
+        "key": "astonvilla",
+        "name": "Aston Villa",
+        "code": "AVL",
+        "isBanned": false
+      },
+      {
+        "key": "southampton",
+        "name": "Southampton",
+        "code": "SOU",
+        "isBanned": false
+      },
+      {
+        "key": "leicester",
+        "name": "Leicester City",
+        "code": "LEI",
+        "isBanned": false
+      },
+      {
+        "key": "bournemouth",
+        "name": "Bournemouth",
+        "code": "BOU",
+        "isBanned": false
+      },
+      {
+        "key": "norwich",
+        "name": "Norwich",
+        "code": "NOR",
+        "isBanned": false
+      },
+      {
+        "key": "watford",
+        "name": "Watford",
+        "code": "WAT",
+        "isBanned": false
+      },
+      {
+        "key": "swansea",
+        "name": "Swansea",
+        "code": "SWA",
+        "isBanned": false
+      },
+      {
+        "key": "barcelona",
+        "name": "Barcelona",
+        "code": "BAR",
+        "isBanned": false
+      },
+      {
+        "key": "espanyol",
+        "name": "Espanyol",
+        "code": "ESP",
+        "isBanned": false
+      },
+      {
+        "key": "madrid",
+        "name": "R. Madrid",
+        "code": "RMD",
+        "isBanned": false
+      },
+      {
+        "key": "atletico",
+        "name": "Atlético",
+        "code": "ATL",
+        "isBanned": false
+      },
+      {
+        "key": "getafe",
+        "name": "Getafe",
+        "code": "GET",
+        "isBanned": false
+      },
+      {
+        "key": "rayo",
+        "name": "Rayo",
+        "code": "RAY",
+        "isBanned": false
+      },
+      {
+        "key": "sevilla",
+        "name": "Sevilla",
+        "code": "SEV",
+        "isBanned": false
+      },
+      {
+        "key": "valencia",
+        "name": "Valencia",
+        "code": "VAL",
+        "isBanned": false
+      },
+      {
+        "key": "levante",
+        "name": "Levante",
+        "code": "LEV",
+        "isBanned": false
+      },
+      {
+        "key": "malaga",
+        "name": "Málaga",
+        "code": "MAG",
+        "isBanned": false
+      },
+      {
+        "key": "athletic",
+        "name": "Athletic",
+        "code": "ATH",
+        "isBanned": false
+      },
+      {
+        "key": "granada",
+        "name": "Granada",
+        "code": "GRA",
+        "isBanned": false
+      },
+      {
+        "key": "celta",
+        "name": "Celta",
+        "code": "CEL",
+        "isBanned": false
+      },
+      {
+        "key": "realsociedad",
+        "name": "R. Sociedad",
+        "code": "RSO",
+        "isBanned": false
+      },
+      {
+        "key": "deportivo",
+        "name": "Deportivo",
+        "code": "DEP",
+        "isBanned": false
+      },
+      {
+        "key": "eibar",
+        "name": "Eibar",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "betis",
+        "name": "Betis",
+        "code": "BET",
+        "isBanned": false
+      },
+      {
+        "key": "sporting",
+        "name": "Sporting",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "laspalmas",
+        "name": "Las Palmas",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "villareal",
+        "name": "Villarreal CF",
+        "code": "VLL",
+        "isBanned": false
+      },
+      {
+        "key": "milan",
+        "name": "Milan",
+        "code": "MIL",
+        "isBanned": false
+      },
+      {
+        "key": "inter",
+        "name": "Inter",
+        "code": "INT",
+        "isBanned": false
+      },
+      {
+        "key": "lazio",
+        "name": "Lazio",
+        "code": "LAZ",
+        "isBanned": false
+      },
+      {
+        "key": "roma",
+        "name": "Roma",
+        "code": "ROM",
+        "isBanned": false
+      },
+      {
+        "key": "genoa",
+        "name": "Genoa",
+        "code": "GEN",
+        "isBanned": false
+      },
+      {
+        "key": "sampdoria",
+        "name": "Sampdoria",
+        "code": "SAM",
+        "isBanned": false
+      },
+      {
+        "key": "juventus",
+        "name": "Juventus",
+        "code": "JUV",
+        "isBanned": false
+      },
+      {
+        "key": "torino",
+        "name": "Torino",
+        "code": "TOR",
+        "isBanned": false
+      },
+      {
+        "key": "napoli",
+        "name": "Napoli",
+        "code": "NAP",
+        "isBanned": false
+      },
+      {
+        "key": "atalanta",
+        "name": "Atalanta",
+        "code": "ATA",
+        "isBanned": false
+      },
+      {
+        "key": "chievoverona",
+        "name": "Chievo",
+        "code": "CHI",
+        "isBanned": false
+      },
+      {
+        "key": "hellasverona",
+        "name": "Verona",
+        "code": "HEL",
+        "isBanned": false
+      },
+      {
+        "key": "fiorentina",
+        "name": "Fiorentina",
+        "code": "FIO",
+        "isBanned": false
+      },
+      {
+        "key": "udinese",
+        "name": "Udinese",
+        "code": "UDI",
+        "isBanned": false
+      },
+      {
+        "key": "sassuolo",
+        "name": "Sassuolo",
+        "code": "SAS",
+        "isBanned": false
+      },
+      {
+        "key": "palermo",
+        "name": "Palermo",
+        "code": "PAL",
+        "isBanned": false
+      },
+      {
+        "key": "empoli",
+        "name": "Empoli",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "bologna",
+        "name": "Bologna",
+        "code": "BOL",
+        "isBanned": false
+      },
+      {
+        "key": "carpi",
+        "name": "Carpi",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "frosinone",
+        "name": "Frosinone",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "Lech Poznań",
+        "name": "Lech Poznań",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "Legia Warszawa",
+        "name": "Legia Warszawa",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "Raków Częstochowa",
+        "name": "Raków Częstochowa",
+        "code": null,
+        "isBanned": false
+      },
+      {
+        "key": "Stal Mielec",
+        "name": "Stal Mielec",
+        "code": null,
+        "isBanned": false
+      }
+      
+      
+    ]
+ 
